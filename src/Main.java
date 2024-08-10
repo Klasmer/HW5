@@ -23,9 +23,15 @@ public class Main {
             System.out.println("Установите версию приложения Android по ссылке");
         }
 
+        System.out.println("Задача 3");
+        short year = 2100;
+        if (year > 1584 && ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)) {
+            System.out.println(year + " год является високосным");
+        } else {
+            System.out.println(year + " год не является високосным");
+        }
 
-
-
+        System.out.println();
     }
 }
 
